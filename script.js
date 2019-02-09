@@ -56,7 +56,7 @@ const createProducts = (products) => {
     products.forEach(product => {        
         builtProducts += `
             <div class="producto">
-                <img src="${product.image}" alt="black">
+                <img src="./${product.image}" alt="black">
                 <div class="producto-descripcion">
                 <h3 class="titulo">
                     ${product.title}
